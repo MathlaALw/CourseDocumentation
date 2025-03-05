@@ -1,0 +1,55 @@
+Introduction to Algorithms
+
+
+Types of Algorithms
+1. Sequential Algorithm
+
+Finding the Sum of Two Numbers:
+
+1- Git 2 num from user
+2- Add them toghether
+3- Return sum
+
+
+2. Iterative Algorithm 
+Finding Factorial of a Number (Iterative):
+
+1- Git input
+2- set result=1
+3- start from 1 and multiply the result by each number upto the input number
+4- return result
+
+
+3. Recursive Algorithm
+
+
+1- If the number is 0 or 1, return 1
+2- Otherwise, multiply the number by the factorial of (number - 1)
+3- Keep calling itself until reaching 1
+
+
+
+Algorithms Examples:
+1. Find the Largest Number in a List
+
+1- Assign LargNum to x -> x=the first num in the List
+2- Compare LargNum with x -> LargNum >x
+3- Set new LargNum 
+4- Increse x by 1 
+
+
+2. Count the Number of Vowels in a String
+
+1- Assign count to 0
+2- Go throw the String for each letter  
+3- If letter is "a","e","i","o" or "u"
+4- Increse count by 1 until the String finish ->String = 0
+5- Return count
+
+
+3. Reverse a String
+
+1- calculate num of Char Assign to y
+2- Create Empty List assign to z then insert the last char y
+3- Decrese y by 1 to git letter befor the last letter
+4- Increse z by 1 to move to the 2 space in list
