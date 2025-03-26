@@ -8,8 +8,8 @@
 	
 
 	
-	|principles|
-    |-----------|
+	|principles|              |
+    |-----------|-------------|
 	|encapsulation|things i know and control.|
 	|inheritance|inheritance of a particular trait.|
 	|polymorphism|multi forms of the same function.|
