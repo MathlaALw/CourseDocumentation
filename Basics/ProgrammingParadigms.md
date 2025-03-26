@@ -27,4 +27,4 @@
 
 
 
-	![Programming Paradigms](image\ProgrammingParadigms.png)
+	![Programming Paradigms](.\Basics\image\ProgrammingParadigms.png)
