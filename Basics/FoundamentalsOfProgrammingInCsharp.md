@@ -393,6 +393,7 @@
 ## Functions in CSharp 
 - **There are two types of Functions:** 
 	1. **Built-in Functions** -> It is a function that is provided by the programming language.
+	
 		a. **Math Functions** -> It is a function that performs mathematical operations.
 			
 			- **Math.Abs()** -> Returns the absolute value of a number.
