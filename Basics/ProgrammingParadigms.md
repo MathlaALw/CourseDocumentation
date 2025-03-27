@@ -27,6 +27,6 @@
 
 
 
-	![image](./image/CSharpCompilingProcess.jpg)
+	![image](./image/ProgrammingParadigms.png)
 
 	
