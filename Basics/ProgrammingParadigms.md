@@ -27,4 +27,6 @@
 
 
 
-	![Programming Paradigms](.\Basics\image\ProgrammingParadigms.png)
+	
+
+	!{image}(https://files.slack.com/files-pri/T08EFTFHWSK-F08JXEQ8A3H/csharpcompilingprocess.jpg)
