@@ -2,14 +2,15 @@
 
 
 ### **Compiled vs Interpreted languages** :
-
 |                  |Compiled language|Interpreted language|
-	|------------------|------------------|---------------------|
-	|Execution speed   |Faster            |Slower               |
-	|Compilation step  |Required          |No Required          |
-	|Error detection   |At compile time   |At runtime           |
-	|Portability       |Less portable     |More portable        |
-	|Debugging         |Difficult         |Easy                 |
+|------------------|------------------|---------------------|
+|Execution speed   |Faster            |Slower               |
+|Compilation step  |Required          |No Required          |
+|Error detection   |At compile time   |At runtime           |
+|Portability       |Less portable     |More portable        |
+|Debugging         |Difficult         |Easy                 |
+
+
 
 
 
