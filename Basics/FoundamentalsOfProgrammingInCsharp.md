@@ -255,6 +255,7 @@
 3. **Accessing Array Elements**
 	- Syntax: `array_name[index]`
 	- Example:
+	
 		```
 		int[] numbers = { 1, 2, 3, 4, 5 };
 		Console.WriteLine(numbers[0]); // Output: 1
@@ -264,6 +265,7 @@
 4. **Modifying Array Elements**
 	- Syntax: `array_name[index] = value;`
 	- Example:
+	
 		```
 		int[] numbers = { 1, 2, 3, 4, 5 };
 		numbers[0] = 10;
@@ -271,6 +273,7 @@
 		```
 5. **Iterating Over an Array**
 	- **For Loop**
+	
 		```
 		int[] numbers = { 1, 2, 3, 4, 5 };
 		for (int i = 0; i < numbers.Length; i++)
@@ -279,6 +282,7 @@
 		}
 		```
 	- **Foreach Loop**
+	
 		```
 		int[] numbers = { 1, 2, 3, 4, 5 };
 		foreach (int number in numbers)
@@ -291,18 +295,21 @@
 1. **Declaring a Two-Dimensional Array**
 	- Syntax: `data_type[,] array_name;`
 	- Example:
+	
 		```
 		int[,] matrix;
 		```
 2. **Initializing a Two-Dimensional Array**
 	- Syntax: `data_type[,] array_name = new data_type[row_count, column_count];`
 	- Example:
+	
 		```
 		int[,] matrix = new int[3, 2]; // Initializes a 3x2 matrix
 		```
 3. **Accessing Two-Dimensional Array Elements**
 	- Syntax: `array_name[row_index, column_index]`
 	- Example:
+	
 		```
 		int[,] matrix = { { 1, 2 }, { 3, 4 }, { 5, 6 } };
 		Console.WriteLine(matrix[0, 0]); // Output: 1
@@ -313,12 +320,14 @@
 1. **Declaring a Jagged Array**
 	- Syntax: `data_type[][] array_name;`
 	- Example:
+	
 		```
 		int[][] jaggedArray;
 		```
 2. **Initializing a Jagged Array**
 	- Syntax: `data_type[][] array_name = new data_type[row_count][];`
 	- Example:
+	
 		```
 		int[][] jaggedArray = new int[3][];
 		jaggedArray[0] = new int[] { 1, 2, 3 };
@@ -328,6 +337,7 @@
 3. **Accessing Jagged Array Elements**
 	- Syntax: `array_name[row_index][column_index]`
 	- Example:
+	
 		```
 		int[][] jaggedArray = new int[3][];
 		jaggedArray[0] = new int[] { 1, 2, 3 };
@@ -341,6 +351,7 @@
 1. **Length Property**
 	- Syntax: `array_name.Length`
 	- Example:
+	
 		```
 		int[] numbers = { 1, 2, 3, 4, 5 };
 		Console.WriteLine(numbers.Length); // Output: 5
@@ -349,6 +360,7 @@
 2. **IndexOf Method**
  	- Syntax: `Array.IndexOf(array_name, value);`
 	- Example:
+	
 		```
 		int[] numbers = { 1, 2, 3, 4, 5 };
 		Console.WriteLine(Array.IndexOf(numbers, 3)); // Output: 2
@@ -356,6 +368,7 @@
 3. **Sort Method**
 	- Syntax: `Array.Sort(array_name);`
 	- Example:
+	
 		```
 		int[] numbers = { 5, 3, 8, 1, 2 };
 		Array.Sort(numbers);
@@ -367,6 +380,7 @@
 4. **Reverse Method**
 	- Syntax: `Array.Reverse(array_name);`
 	- Example:
+	
 		```
 		int[] numbers = { 1, 2, 3, 4, 5 };
 		Array.Reverse(numbers);
@@ -386,31 +400,37 @@
 				```
 				Console.WriteLine(Math.Abs(-5)); // Output: 5
 				```
+			
 			- **Math.Max()** -> Returns the larger of two numbers.
 				
 				```
 				Console.WriteLine(Math.Max(10, 20)); // Output: 20
 				```
+			
 			- **Math.Min()** -> Returns the smaller of two numbers.
 				
 				```
 				Console.WriteLine(Math.Min(10, 20)); // Output: 10
 				```
+			
 			- **Math.Sqrt()** -> Returns the square root of a number.
 				
 				```
 				Console.WriteLine(Math.Sqrt(25)); // Output: 5
 				```
+
 			- **Math.Pow()** -> Returns a specified number raised to the specified power.
 				
 				```
 				Console.WriteLine(Math.Pow(2, 3)); // Output: 8
 				```
+			
 			- **Math.Round()** -> Rounds a number to the nearest integer.
 				
 				```
 				Console.WriteLine(Math.Round(3.5)); // Output: 4
 				```
+			
 		 b. **String Functions** -> It is a function that performs operations on strings.
 			
 			- **String.Length** -> Returns the length of a string.
@@ -419,36 +439,42 @@
 				string name = "John";
 				Console.WriteLine(name.Length); // Output: 4
 				```
+			
 			- **String.ToUpper()** -> Converts a string to uppercase.
 				
 				```
 				string name = "John";
 				Console.WriteLine(name.ToUpper()); // Output: JOHN
 				```
+			
 			- **String.ToLower()** -> Converts a string to lowercase.
 				
 				```
 				string name = "JOHN";
 				Console.WriteLine(name.ToLower()); // Output: john
 				```
+			
 			- **String.Contains()** -> Checks if a string contains a specified value.
 				
 				```
 				string name = "John";
 				Console.WriteLine(name.Contains("o")); // Output: True
 				```
+			
 			- **String.Substring()** -> Extracts a substring from a string.
 				
 				```
 				string name = "John";
 				Console.WriteLine(name.Substring(1, 2)); // Output: oh
 				```
+			
 			- **String.Replace()** -> Replaces a specified value in a string.
 				
 				```
 				string name = "John";
 				Console.WriteLine(name.Replace("J", "M")); // Output: Monn
 				```
+			
 			- **String.Split()** -> Splits a string into an array of substrings.
 				
 				```
@@ -459,12 +485,14 @@
 					Console.WriteLine(name);
 				}
 				```
+			
 			- **String.Trim()** -> Removes whitespace from the beginning and end of a string.
 				
 				```
 				string name = " John ";
 				Console.WriteLine(name.Trim()); // Output: John
 				```
+			
 		c. **Date and Time Functions** -> It is a function that performs operations on dates and times.
 		
 			- **DateTime.Now** -> Returns the current date and time.
@@ -472,23 +500,27 @@
 				```
 				Console.WriteLine(DateTime.Now); // Output: 10/10/2021 12:00:00 AM
 				```
+			
 			- **DateTime.Today** -> Returns the current date.
 			
 				```
 				Console.WriteLine(DateTime.Today); // Output: 10/10/2021 12:00:00 AM
 				```
+			
 			- **DateTime.AddDays()** -> Adds a specified number of days to a date.
 			
 				```
 				DateTime date = DateTime.Today;
 				Console.WriteLine(date.AddDays(7)); // Output: 10/17/2021 12:00:00 AM
 				```
+			
 			- **DateTime.ToString()** -> Converts a DateTime object to a string representation.
 			
 				```
 				DateTime date = DateTime.Today;
 				Console.WriteLine(date.ToString("MM/dd/yyyy")); // Output: 10/10/2021
 				```
+			
 			- **DateTime.Parse()** -> Converts a string representation of a date and time to a DateTime object.
 			
 				```
@@ -496,6 +528,7 @@
 				DateTime date = DateTime.Parse(dateString);
 				Console.WriteLine(date); // Output: 10/10/2021 12:00:00 AM
 				```
+			
 			- **DateTime.TryParse()** -> Converts a string representation of a date and time to a DateTime object and returns a Boolean value indicating whether the conversion succeeded.
 			
 				```
@@ -523,6 +556,7 @@
 					Console.WriteLine(number);
 				}
 				```
+			
 			- **Array.Reverse()** -> Reverses the order of the elements in an array.
 			
 				```
@@ -533,12 +567,14 @@
 					Console.WriteLine(number);
 				}
 				```
+			
 			- **Array.IndexOf()** -> Searches for the specified object and returns the index of the first occurrence within the entire array.
 			
 				```
 				int[] numbers = { 1, 2, 3, 4, 5 };
 				Console.WriteLine(Array.IndexOf(numbers, 3)); // Output: 2
 				```
+			
 			- **Array.Resize()** -> Changes the number of elements in an array to a specified new size.
 			
 				```
@@ -549,6 +585,7 @@
 					Console.WriteLine(number);
 				}
 				```
+			
 		e. **Console Functions** -> It is a function that performs operations on the console.
 			
 			- **Console.WriteLine()** -> Writes the specified data, followed by the current line terminator, to the standard output stream.
@@ -556,17 +593,20 @@
 				```
 				Console.WriteLine("Hello, World!");
 				```
+			
 			- **Console.ReadLine()** -> Reads the next line of characters from the standard input stream.
 			
 				```
 				string name = Console.ReadLine();
 				Console.WriteLine("Hello, " + name);
 				```
+			
 			- **Conlose.Write()** -> Writes the specified data to the standard output stream.
 			
 				```
 				Console.Write("Hello, World!");
 				```
+			
 		f. **Type Conversion Functions** -> It is a function that performs type conversion.
 			- **Convert.ToInt32()** -> Converts the specified value to a 32-bit signed integer.
 			
@@ -575,6 +615,7 @@
 				int number = Convert.ToInt32(numberString);
 				Console.WriteLine(number); // Output: 123
 				```
+			
 			- **Convert.ToDouble()** -> Converts the specified value to a double-precision floating-point number.
 			
 				```
@@ -582,13 +623,15 @@
 				double number = Convert.ToDouble(numberString);
 				Console.WriteLine(number); // Output: 123.45
 				```
-			- **Convert.ToString()** -> Converts the specified value to its equivalent string representation.
 			
+			- **Convert.ToString()** -> Converts the specified value to its equivalent string representation.
+		
 				```
 				int number = 123;
 				string numberString = Convert.ToString(number);
 				Console.WriteLine(numberString); // Output: 123
 				```
+			
 			- **int.Parse and int.TryParse** -> Converts the string representation of a number to its 32-bit signed integer equivalent.
 			
 				```
@@ -608,6 +651,7 @@
 					Console.WriteLine("Invalid number");
 				}
 				```
+			
 		g. **Random Number Functions** -> It is a function that generates random numbers.
 			- **Random.Next()** -> Returns a non-negative random integer.
 			
