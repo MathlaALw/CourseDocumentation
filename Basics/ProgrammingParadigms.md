@@ -27,6 +27,6 @@
 
 
 
-	
+	![image](./image/CSharpCompilingProcess.jpg)
 
-	!{image}(https://files.slack.com/files-pri/T08EFTFHWSK-F08JXEQ8A3H/csharpcompilingprocess.jpg)
+	
