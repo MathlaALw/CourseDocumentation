@@ -1,7 +1,6 @@
 # **Comparison of compiler and interpreter**
 
 
-
 ### **Compiled vs Interpreted languages** :
 
 |                  |Compiled language|Interpreted language|
@@ -11,6 +10,7 @@
 	|Error detection   |At compile time   |At runtime           |
 	|Portability       |Less portable     |More portable        |
 	|Debugging         |Difficult         |Easy                 |
+
 
 
 
