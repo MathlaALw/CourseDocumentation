@@ -70,3 +70,8 @@ developers with a comprehensive set of tools to write, test, debug, and deploy c
 2. **Reduces Errors** -> It helps you to find and fix bugs in your code.
 3. **Enhances Collaboration** -> It provides tools that help you to work with other developers.
 4. **Supports Multiple Languages** -> It supports multiple languages.
+
+
+# **C# Compiling Process** :
+
+![image](./image/CSharpCompilingProcess.jpg)
