@@ -675,7 +675,157 @@
 				double number = random.NextDouble();
 				Console.WriteLine(number);
 				```
-	-----------------------------------------------------
+## User defined Functions in CSharp 
+- **User-defined functions** -> It is a function that is defined by the user to perform a specific task.
+- **Syntax of User-defined Function**
+	```
+	[access modifier] [return_type] [function_name]([parameter_list])
+	{
+		// Function body
+		return value; // Optional
+	}
+
+	```
+- **type of access modifier:**
+	1. public -> It is accessible from anywhere in the program.
+	2. private -> It is accessible only within the class.
+	3. protected -> It is accessible within the class and its derived classes.
+	4. internal -> It is accessible only within the same assembly.
+- **type of return type:**
+	1. void -> It does not return any value.
+	2. int -> It returns an integer value.
+	3. string -> It returns a string value.
+	4. double -> It returns a double value.
+	5. bool -> It returns a boolean value.
+	6. float -> It returns a float value.
+	7. char -> It returns a character value.
+- **type of parameter list:**
+	1. No parameters -> The function does not take any parameters.
+	2. Single parameter -> The function takes a single parameter.
+	3. Multiple parameters -> The function takes multiple parameters.
+	4. Optional parameters -> The function takes optional parameters.
+
+
+**Example of User-defined Function:**
+
+1 . **Ex1: Function with no parameters and no return value**
+```
+public void PrintMessage()
+{
+	Console.WriteLine("This is a user-defined function with no parameters and no return value.");
+}
+```
+2 . **Ex2: Function with parameters and no return value**
+```
+public void AddNumbers(int a, int b)
+{
+	Console.WriteLine("The sum of " + a + " and " + b + " is: " + (a + b));
+}
+```
+3 . **Ex3: Function with parameters and return value**
+```
+public int MultiplyNumbers(int a, int b)
+{
+	return a * b; // Returns the product of a and b
+}
+```
+4 . **Ex4: Function with optional parameters**
+```
+public void GreetUser(string name = "Guest")
+{
+	Console.WriteLine("Hello, " + name + "!");
+}
+```
+## Overloading Functions in CSharp
+- **Function Overloading** -> It is a feature that allows multiple functions to have the same name but different parameters (type, number, or order).
+- **Syntax of Function Overloading**
+ ```
+ [access modifier] [return_type] [function_name]([parameter_list])
+ {
+ 	// Function body
+ 	return value; // Optional
+ }
+``` 
+- **Example of Function Overloading:**
+
+```
+public class Calculator
+{
+	// Function to add two integers
+	public int Add(int a, int b)
+	{
+		return a + b;
+	}
+	// Overloaded function to add three integers
+	public int Add(int a, int b, int c)
+	{
+		return a + b + c;
+	}
+	// Overloaded function to add two doubles
+	public double Add(double a, double b)
+	{
+		return a + b;
+	}
+```
+
+## Optional Functions in CSharp
+- **Optional Functions** -> It is a feature that allows a function to have optional parameters. Optional parameters can be omitted when calling the function, and default values will be used.
+- **Syntax of Optional Functions**
+```
+[access modifier] [return_type] [function_name]([parameter_list = default_value])
+{
+	// Function body
+	return value; // Optional
+}
+```
+
+- **Example of Optional Functions:**
+```
+public class Greeting
+{
+	public void Greet(string name = "Guest", string greeting = "Hello")
+	{
+		Console.WriteLine(greeting + ", " + name + "!");
+	}
+	}
+```
+## Passing parameter by Value in CSharp
+- **Passing by Value** -> It is a method of passing parameters to a function where a copy of the value is passed. Changes made to the parameter inside the function do not affect the original value.
+- **Syntax of Passing by Value**
+```
+public void FunctionName(data_type parameter)
+{
+	// Function body
+}
+```
+- **Example of Passing by Value:**
+- 
+```
+
+	public void DisplayValue(int number)
+	{
+		Console.WriteLine("The value is: " + number);
+	}
+
+```
+- **Example of Passing by Refrence in C#:**
+```
+public void DisplayValue(ref int number)
+{
+	number += 10; // Modifies the original value
+	Console.WriteLine("The modified value is: " + number);
+}
+```
+- **Example of Passing by Reference( Using Out ):**
+```
+public void CalculateSum(int a, int b, out int sum)
+{
+	sum = a + b; // Assigns the sum to the out parameter
+	Console.WriteLine("The sum is: " + sum);
+}
+```
+
+-----------------------------------------------
 
 ## Errors in programming
 
