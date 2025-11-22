@@ -1,0 +1,14 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/.vs/CourseDocumentation/FileContentIndex
+/.vs/CourseDocumentation/v17
+/.vs/CourseDocumentation/CopilotIndices/17.13.441.19478/SemanticSymbols.db
+/.vs/CourseDocumentation/CopilotIndices/17.13.441.19478/CodeChunks.db-wal
+/.vs/CourseDocumentation/CopilotIndices/17.13.441.19478/SemanticSymbols.db-shm
+/.vs/ProjectSettings.json
+/.vs/CourseDocumentation/CopilotIndices/17.13.441.19478
+/.vs/VSWorkspaceState.json
+/.vs/slnx.sqlite
+/.gitignore
