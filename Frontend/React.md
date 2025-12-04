@@ -37,3 +37,22 @@ const element = <h1>Hello, world!</h1>;
 - Social Media Apps
 - And much more!
 
+
+
+
+---
+##  React vs Angular 
+
+| Feature        | React               | Angular                |
+|----------------|---------------------|-------------------------|
+| **Type**       | Library             | Framework               |
+| **Architecture** | Flexible          | Structured              |
+| **Best For**   | Small/Medium apps   | Large enterprise apps   |
+| **Language**   | JavaScript + JSX    | TypeScript              |
+| **Learning Curve** | Easy            | Hard                    |
+| **Tools**      | Install separately  | All built-in            |
+| **Speed**      | Very fast           | Fast but heavier        |
+| **Community**  | Huge                | Strong enterprise use   |
+
+
+
