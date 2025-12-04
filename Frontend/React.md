@@ -56,3 +56,19 @@ const element = <h1>Hello, world!</h1>;
 
 
 
+
+---
+# Who Created React and Angular?
+
+## React
+- **Created by:** Meta (Facebook)  
+- **Main developer:** Jordan Walke  
+- **First release:** 2013  
+- Originally used inside Facebook and Instagram before becoming open-source.
+
+---
+
+## Angular
+- **Created by:** Google  
+- **Initial version:** AngularJS (2010)  
+- **Modern Angular release:** modern Angular (2016)
