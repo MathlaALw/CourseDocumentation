@@ -31,7 +31,7 @@ interface InterfaceName {
  
 }
  // using the interface 
- let obj: InterfaceName = {
+class obj implements InterfaceName {
   property1: value1,
   property2: value2
 };
@@ -87,7 +87,7 @@ interface User {
 
 class Admin implements User {
     id: number;
-    // username: string;  // ❌ missing → ERROR
+    // username: string;  //  missing → ERROR
 }
 ```
 
