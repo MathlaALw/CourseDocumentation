@@ -1,4 +1,4 @@
-# Lifting State Up
+﻿# Lifting State Up
 
 ## What is Lifting State Up in React?
 
@@ -63,6 +63,19 @@ function ChildB({ value }) {
   return <p>{value}</p>;
 }
 
+
+
+```
+
+
+## How it works:
+```code
+
+Child A → updates state
+        ↑
+      Parent (state lives here)
+        ↓
+Child B → receives updated data
 
 
 ```
